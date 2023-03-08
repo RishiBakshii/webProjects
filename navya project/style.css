@@ -1,0 +1,67 @@
+body{
+    background-image: url("back.jpg");
+    background-position-y: -2500px;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: soft-light;
+    background-position-x: -8600px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Poppins",'sans-serif';
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+
+}
+
+.header{
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+}
+
+.name{
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    justify-content: right;
+    margin-right: 20rem;
+
+}
+
+.link-item{
+    list-style: none;
+    margin-left: 25px;
+    transition: 0.4s;
+}
+
+.link-item:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255,1);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.familypic{
+    transition: 0.4s;
+    border-radius: 11px;
+    width: 600px;
+    height: 600px;
+    margin-top: 70px;
+}
+
+.familypic:hover{
+    transform: scale(1.0250);
+}
